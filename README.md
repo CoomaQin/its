@@ -5,7 +5,7 @@ ITS and EBS related source codes
 
 ## Features
 - object detection
-- object ratcing
+- object racing
 - roadway lane detection, see [ref](https://github.com/voldemortX/pytorch-auto-drive.git)
 - vehicle lane detection
 - Oracle uploading
@@ -14,7 +14,7 @@ ITS and EBS related source codes
 Clone the source code with submodule
 `git clone --recursive https://github.com/CoomaQin/its.git`
 
-Follow the [intruction](https://github.com/voldemortX/pytorch-auto-drive.git) to download the weight of lane detection models 
+Follow the [instruction](https://github.com/voldemortX/pytorch-auto-drive.git) to download the weight of lane detection models 
 
 Modify the visualization function and run it to generate lane keypoints. In *pytorch-auto-drive/utils/runners/lane_det_visualizer.py*, check the run function of Class LaneDetVideo to 
 ```

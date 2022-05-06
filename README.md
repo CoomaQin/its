@@ -1,7 +1,7 @@
-## Its
+# Its
 ITS and EBS related source codes
 
-#1. Video Object Detection
+# 1. Video Object Detection
 
 ## Features
 - object detection

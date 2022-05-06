@@ -4,7 +4,7 @@ ITS and EBS related source codes
 ## Features
 - object detection
 - object ratcing
-- roadway lane detection [ref](https://github.com/voldemortX/pytorch-auto-drive.git)
+- roadway lane detection, see [ref](https://github.com/voldemortX/pytorch-auto-drive.git)
 - vehicle lane detection
 - Oracle uploading
 
@@ -41,8 +41,8 @@ Modify the visualization function and run it to generate lane keypoints. In *pyt
                 self.writer.write(results[j])
 ```
 
-Run the object detection and tracking `python3 ./object_detection_tracking.py`. Note that you need to modify the video_path, YOLO weight etc.
+Run the object detection and tracking (ODT) `python3 ./object_detection_tracking.py`. Note that you need to modify the video_path, YOLO weight etc.
 
-Fuse the lane keypoints and object bounding boxes + trakcingID to determine the vihecle position by lane `python3 ./determine_vehicle_lane.py`. Note that you need to specify the path of the above output. 
+Fuse the lane keypoints and object bounding boxes + trakcingID to determine the vihecle position by lane `python3 ./determine_vehicle_lane.py`. Note that you need to specify the path of the keypoint file, the ODT file and the forward-facing csv file. 
 
-Upload results to Oracle database ``
+Upload results to Oracle database `` （这里需要补充一下）

@@ -1,0 +1,3 @@
+[submodule "pytorch-auto-drive"]
+	path = pytorch-auto-drive
+	url = https://github.com/voldemortX/pytorch-auto-drive.git
